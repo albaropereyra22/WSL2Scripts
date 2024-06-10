@@ -5,9 +5,10 @@ git add .
 
 if [ "X$1" = "X-h" ];
 then
-  tee - <<EOF
+  tee<<EOF
 usage: command -h:"comment".
 EOF
+  exit 0;
 
 elif [ -z $1 ];
 then
