@@ -6,7 +6,7 @@ git add .
 if [ "X$1" = "X-h" ];
 then
   tee<<EOF
-usage: command -h:"comment".
+usage: $0 -h:"comment".
 EOF
   exit 0;
 
