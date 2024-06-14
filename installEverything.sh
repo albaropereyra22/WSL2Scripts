@@ -13,6 +13,6 @@ fi
 cd;
 git clone git@github.com:albaropereyra22/WSL2Scripts.git
 mkdir -p ~/bin;
-mv ~/WSL2Scripts/WSLDevEnv.sh ~/bin
-chmod u+x ~/bin/WSLDevEnv.sh
-./~/binWSLDevEnv.sh
+mv ~/WSL2Scripts/WSL2DevEnv.sh ~/bin/
+chmod u+x ~/bin/WSL2DevEnv.sh
+sh ~/bin/WSL2DevEnv.sh
