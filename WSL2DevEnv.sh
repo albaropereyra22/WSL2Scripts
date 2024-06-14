@@ -2,7 +2,7 @@
 
 # set local
 sudo locale-gen "en_US.UTF-8"
-sudo dpkg-reconfigure locales
+#sudo dpkg-reconfigure locales
 sudo snap install emacs --classic
 sudo apt-get install zsh net-tools
 git clone git@github.com:AlbaroPereyra/zshconf.git
