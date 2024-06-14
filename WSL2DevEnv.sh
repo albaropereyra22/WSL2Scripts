@@ -9,7 +9,8 @@ git clone git@github.com:AlbaroPereyra/zshconf.git
 chmod u+x zshconf/install.sh
 cd zshconf
 ./install.sh
-git clone git@github.com:AlbaroPereyra/emacsconf.git
+export TERM=xterm-256color
+git clone git@github.com:AlbaroPereyra22/emacsconf.git
 chmod u+x emacsconf/installer.sh
 cd emacsconf
 ./installer.sh
