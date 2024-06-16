@@ -11,12 +11,11 @@ git clone git@github.com:AlbaroPereyra22/zshconf.git
 chmod u+x ~/zshconf/installer.sh
 cd zshconf
 ./installer.sh
-export TERM=xterm-256color;
+cd;
 rm -rf ~/emacsconf;
 git clone git@github.com:AlbaroPereyra22/emacsconf.git
 chmod u+x ~/emacsconf/installer.sh
 cd emacsconf
 ./installer.sh
-sudo apt-get install emacs
 git clone git@github.com:AlbaroPereyra/screenconf.git
 mv screenconf/.screenrc ~
