@@ -10,7 +10,7 @@ rm -rf ~/zshconf;
 git clone git@github.com:AlbaroPereyra22/zshconf.git
 chmod u+x ~/zshconf/installer.sh
 cd zshconf
-./install.sh
+./installer.sh
 export TERM=xterm-256color;
 rm -rf ~/emacsconf;
 git clone git@github.com:AlbaroPereyra22/emacsconf.git
