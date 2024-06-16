@@ -7,8 +7,8 @@ sudo snap install emacs --classic
 sudo apt-get install zsh net-tools;
 cd;
 rm -rf ~/zshconf;
-git clone git@github.com:AlbaroPereyra/zshconf.git
-chmod u+x ~/zshconf/install.sh
+git clone git@github.com:AlbaroPereyra22/zshconf.git
+chmod u+x ~/zshconf/installer.sh
 cd zshconf
 ./install.sh
 export TERM=xterm-256color;
