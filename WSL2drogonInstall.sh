@@ -1,7 +1,7 @@
 #! /bin/sh -
 
 sudo apt-get update;
-sudo apt install git gcc g++ cmake uuid-dev zlib1g-dev openssl libssl-dev postgresql-all libmariadb-dev libsqlite3-dev libhiredis-dev mariadb-server doxygen curl zip unzip tar pkg-config;
+sudo apt install git gcc g++ cmake uuid-dev zlib1g-dev openssl libssl-dev postgresql-all libmariadb-dev libsqlite3-dev libhiredis-dev mariadb-server doxygen libbrotli-dev;
 #sudo mysql_secure_installation;
 cd;
 git clone https://github.com/open-source-parsers/jsoncpp;
@@ -10,12 +10,6 @@ mkdir build
 cd build
 cmake ..
 sudo make && sudo make install
-cd;
-git clone https://github.com/Microsoft/vcpkg.git
-cd vcpkg
-./bootstrap-vcpkg.sh
-./vcpkg integrate install
-./vcpkg install brotli
 cd;
 git clone https://github.com/drogonframework/drogon
 cd drogon
