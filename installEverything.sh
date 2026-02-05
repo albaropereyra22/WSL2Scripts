@@ -12,6 +12,8 @@ fi
 # TODO determine if git is installed
 # TODO email
 ssh-keygen -t ed25519 -C "albaropereyra22@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+echo "Go to GitHub → Settings → SSH and GPG keys → New SSH key."
 cd;
 git clone git@github.com:albaropereyra22/WSL2Scripts.git
 mkdir -p ~/bin;
