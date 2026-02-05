@@ -10,6 +10,8 @@ EOF
 fi
 # TODO determine WSL
 # TODO determine if git is installed
+# TODO email
+ssh-keygen -t ed25519 -C "albaropereyra22@gmail.com"
 cd;
 git clone git@github.com:albaropereyra22/WSL2Scripts.git
 mkdir -p ~/bin;
