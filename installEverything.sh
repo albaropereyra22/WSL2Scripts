@@ -9,7 +9,7 @@ EOF
   exit 0;
 fi
 # TODO determine WSL
-if [ -e ~/.ssh/id_ed25519.pub ];
+if [ ! -e ~/.ssh/id_ed25519.pub ];
 then
   printf "Enter your email address:";
   read email
