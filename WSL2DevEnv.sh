@@ -6,7 +6,7 @@ sudo locale-gen "en_US.UTF-8"
 sudo snap install emacs --classic
 sudo apt-get install zsh net-tools;
 cd;
-mkdir -d opt;
+mkdir -p opt;
 cd opt;
 rm -rf ~/opt/zshconf;
 git clone git@github.com:AlbaroPereyra22/zshconf.git
