@@ -6,15 +6,18 @@ sudo locale-gen "en_US.UTF-8"
 sudo snap install emacs --classic
 sudo apt-get install zsh net-tools;
 cd;
-rm -rf ~/zshconf;
+mkdir -d opt;
+cd opt;
+rm -rf ~/opt/zshconf;
 git clone git@github.com:AlbaroPereyra22/zshconf.git
-chmod u+x ~/zshconf/installer.sh
+chmod u+x ~/opt/zshconf/installer.sh
 cd zshconf
 ./installer.sh
 cd;
-rm -rf ~/emacsconf;
+cd opt;
+rm -rf ~/opt/emacsconf;
 git clone git@github.com:AlbaroPereyra22/emacsconf.git
-chmod u+x ~/emacsconf/installer.sh
+chmod u+x ~/opt/emacsconf/installer.sh
 cd emacsconf
 ./installer.sh
 git clone git@github.com:AlbaroPereyra/screenconf.git
