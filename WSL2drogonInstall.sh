@@ -15,7 +15,7 @@ cmake ..
 sudo make && sudo make install
 cd;
 cd opt;
-rm -rf ~/drogon
+rm -rf ~/opt/drogon
 git clone https://github.com/drogonframework/drogon
 cd drogon
 git submodule update --init
