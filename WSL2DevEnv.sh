@@ -11,7 +11,7 @@ cd opt;
 rm -rf ~/opt/zshconf;
 git clone git@github.com:AlbaroPereyra22/zshconf.git
 chmod u+x ~/opt/zshconf/installer.sh
-cd opt/zshconf
+cd ~/opt/zshconf
 ./installer.sh
 cd;
 cd opt;
