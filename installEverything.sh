@@ -32,3 +32,6 @@ mkdir -p ~/bin;
 cp ~/opt/WSL2Scripts/WSL2DevEnv.sh ~/bin/
 chmod u+x ~/bin/WSL2DevEnv.sh
 sh ~/bin/WSL2DevEnv.sh
+cp ~/opt/WSL2Scripts/WSL2drogonInstall.sh ~/bin/
+chmod u+x ~/bin/WSL2drogonInstall.sh
+sh ~/bin/WSL2drogonInstall.sh
