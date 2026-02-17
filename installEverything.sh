@@ -29,6 +29,6 @@ rm -rf ~/opt/WSL2Scripts;
 rm -rf ~/bin/WSL2DevEnv.sh;
 git clone git@github.com:albaropereyra22/WSL2Scripts.git
 mkdir -p ~/bin;
-cp ~/WSL2Scripts/WSL2DevEnv.sh ~/bin/
+cp ~/opt/WSL2Scripts/WSL2DevEnv.sh ~/bin/
 chmod u+x ~/bin/WSL2DevEnv.sh
 sh ~/bin/WSL2DevEnv.sh
