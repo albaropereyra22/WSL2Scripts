@@ -18,7 +18,7 @@ cd opt;
 rm -rf ~/opt/emacsconf;
 git clone git@github.com:AlbaroPereyra22/emacsconf.git
 chmod u+x ~/opt/emacsconf/installer.sh
-cd emacsconf
+cd opt/emacsconf;
 ./installer.sh
 git clone git@github.com:AlbaroPereyra/screenconf.git
 mv screenconf/.screenrc ~
