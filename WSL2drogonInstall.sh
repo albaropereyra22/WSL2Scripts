@@ -12,7 +12,6 @@ cd jsoncpp/;
 #TODO remove the following 3 lines, they have been inserted because the latest version of jsoncpp is not compatible.
 git fetch origin 5defb4ed1a4293b8e2bf641e16b156fb9de498cc
 git reset --hard FETCH_HEAD
-git pull
 mkdir build
 cd build
 cmake ..
